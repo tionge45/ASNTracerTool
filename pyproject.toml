@@ -1,0 +1,22 @@
+[project]
+name = "asntracertool"
+version = "0.1.0"
+description = "Трассировка автономных систем. Пользователь вводит доменное имя или IP адрес. Осуществляется трассировка до указанного узла"
+authors = [
+    {name = "Tionge Sakala", email = "sakalationge45@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+ruff = "^0.11.2"
+mypy = "^1.15.0"
+
